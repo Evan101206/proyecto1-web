@@ -1,61 +1,33 @@
 body{
     background-color:rgb(156, 128, 128) 
 }
-img{
-    width: 250px;
-    height: 300px;
-}
-#img1{
-    width: 350px;
-    height: 300px;
-    border-radius: 150px;
-}
 
-section{
-    padding: 20px;
-    text-align: center;
-}
-.imagenes{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-.imagenes img{
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-    transition: tranform 0.3s ease;
-}
-.imagenes img:hover{
-    transform: scale(1.5);
-}
 #botoncito{
     width: 100px;
     height: 40px;
-    color: whitesmoke;
-    background: rgb(188, 170, 206);
-    border-color: whitesmoke;
+    color: rgba(182, 5, 5, 0.74);
+    background: gold;
+    border-color: gold;
     font-family: arial;
     font-size: larger;
     border-radius: 4px;
     cursor: all-scroll;
-    background-color: rgb(107, 97, 116);
+    background-color: goldenrod;
 }
+
 
 nav{
     background-color: black;
     color: rgb(194, 193, 196);
     text-align: center;
-    
 }
 li{
     list-style: none;
 }
 nav ul li{
     display: inline;
-    font-family: Helvetica;
-    font-size: 25px;
+    font-family: Arial;
+    font-size: 20px;
 }
 a{
     color: blanchedalmond;
@@ -66,7 +38,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     background-color: rgb(149, 188, 221);
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -81,7 +53,6 @@ nav ul{
 
 nav ul li {
     position: relative; /*necesario para el submenu */
-
 }
 
 nav ul li a {
@@ -103,7 +74,7 @@ nav ul li a:hover{
 nav ul li.opcion-submenu .submenu {
     display: none; /* submenu oculto por defecto */
     position: absolute; /* posicionar elsubmenu juston galeria*/
-    background-color: #222; /* fondo oscuro */
+    background-color: white; /* fondo oscuro */
     border-radius: 5px;
 }
 
@@ -126,4 +97,25 @@ nav ul li .submenu li a {
 
 nav ul li .submenu li a:hover {
     background-color: #945b5b;
+}
+
+table{
+    width: 40%;
+    margin-left: 0;
+    border-collapse: collapse;
+    background-color: rgb(156, 128, 128);
+}
+th, td{
+    padding: 22px;
+    text-align:left;
+    font-weight: normal;
+    border: 1px solid rgb(204, 183, 112);
+}
+td img{
+    width: 260px;
+    height: 260px;
+    border-radius: 8px;
+}
+tr:hover{
+    background-color: #5f5e5e;
 }
